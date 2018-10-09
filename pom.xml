@@ -44,6 +44,20 @@
   <artifactId>xmlworker</artifactId>
   <version>${itext.version}</version>
 </dependency>
+
+ <dependency>
+        <groupId>org.bouncycastle</groupId>
+        <artifactId>bcprov-jdk15on</artifactId>
+        <version>1.47</version>
+        <optional>false</optional>
+    </dependency>
+    <dependency>
+        <groupId>org.bouncycastle</groupId>
+        <artifactId>bcmail-jdk15on</artifactId>
+        <version>1.47</version>
+        <optional>false</optional>
+    </dependency>
+    
   </dependencies>
     <build>
         <plugins>
